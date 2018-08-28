@@ -1,0 +1,280 @@
+\relax 
+\providecommand \oddpage@label [2]{}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:signature}{{\caption@xref {fig:signature}{ on input line 33}}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Application Area}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Simplified process diagram showing a two-stage gas compression train\relax }}{2}}
+\newlabel{fig:process_diagram}{{1}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Problem Formulation}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Data Preprocessing}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Downsampling}{4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}Tumbling Time Window}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Graphical illustration of tumbling time window\relax }}{5}}
+\newlabel{fig:tumbling_time_window}{{2}{5}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2}Sliding Time Window}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Graphical illustration of sliding time window\relax }}{5}}
+\newlabel{fig:sliding_time_window}{{3}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Subsetting}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Data preprocessing stages. Raw sensor measurements were standardised into regularly-spaced time series data using the windowing approach. Afterwards, known outage periods were discarded from the dataset. \relax }}{6}}
+\newlabel{fig:preprocessing}{{4}{6}}
+\citation{mcculloch}
+\citation{rosenblatt}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces A simple forward-feeding artificial neural network (FNN) with one hidden layer. The input vector \(\mathbb  {R}^P\) feeds through the input layer of \(P\) neurons. Each neuron in the hidden layer computes the weighted sum and bias adjustment as in equation 1\hbox {} and then it is activated as in equation 2\hbox {}.\relax }}{7}}
+\newlabel{fig:ann}{{5}{7}}
+\citation{elman}
+\citation{jordan}
+\newlabel{weightedinput}{{1}{8}}
+\newlabel{activation}{{2}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Recurrent Neural Network}{8}}
+\newlabel{elman_update}{{3a}{8}}
+\newlabel{jordan_update}{{3b}{8}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Backpropagation Through Time}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Unfolding a RNN into a forward-feeding deep neural network.\relax }}{9}}
+\newlabel{fig:rnn}{{6}{9}}
+\@writefile{toc}{\contentsline {paragraph}{Forward propagation}{9}}
+\newlabel{forward_prop_weighted_sum}{{4a}{9}}
+\newlabel{forward_prop_activation}{{4b}{9}}
+\newlabel{forward_prop}{{4}{9}}
+\citation{hochreiter1991}
+\citation{hochreiter2001}
+\@writefile{toc}{\contentsline {paragraph}{Weight Update}{10}}
+\newlabel{dense_output}{{5a}{10}}
+\newlabel{loss_function}{{5b}{10}}
+\newlabel{differentiation}{{6a}{10}}
+\newlabel{weight_update}{{6b}{10}}
+\citation{pascanu2012}
+\citation{bengio1994}
+\citation{hochreiter1997}
+\citation{gers2000}
+\citation{gers2003}
+\citation{graves2012}
+\citation{olah}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Unstable Gradient}{11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.3}Long Short-Term Memory}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Internal structure of a long short-term memory block.\relax }}{12}}
+\newlabel{fig:lstm}{{7}{12}}
+\newlabel{lstm_forget}{{7a}{12}}
+\citation{srivastava2014}
+\citation{zaremba2014}
+\newlabel{lstm_input1}{{7b}{13}}
+\newlabel{lstm_input2}{{7c}{13}}
+\newlabel{lstm_update_hidden}{{7d}{13}}
+\newlabel{lstm_output1}{{7e}{13}}
+\newlabel{lstm_output2}{{7f}{13}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.4}Regularisation}{13}}
+\citation{sutskever2014}
+\citation{cho2014}
+\citation{vinyals2015}
+\citation{venugopalan2014}
+\citation{vinyals2014}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Application of dropout in RNN. Dotted arrows indicate non-recurrent connections where dropout is applied. Solid arrow indicates recurrent connection without dropout.\relax }}{14}}
+\newlabel{fig:dropout}{{8}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Sequence-to-Sequence Model}{14}}
+\citation{cho2014}
+\citation{goodfellow}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Seq2seq model with multiple hidden recurrent layers. Both the encoder and decoder are made up of multilayered RNN. Arrows indicate the direction of information flow.\relax }}{15}}
+\newlabel{fig:seq2seq}{{9}{15}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Encoding}{15}}
+\newlabel{seq2seq_encoder1}{{8a}{16}}
+\newlabel{seq2seq_encoder2}{{8b}{16}}
+\newlabel{seq2seq_encoder3}{{8c}{16}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Decoding}{16}}
+\newlabel{seq2seq_decoder1}{{9a}{16}}
+\newlabel{seq2seq_decoder2}{{9b}{16}}
+\newlabel{seq2seq_decoder3}{{9c}{16}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Recurrent Autoencoder}{17}}
+\@writefile{toc}{\contentsline {paragraph}{Dimensionality Relaxation}{17}}
+\newlabel{seq2seq_autoencoder_relax_encoder}{{10}{17}}
+\@writefile{toc}{\contentsline {paragraph}{Consecutive Sampling}{18}}
+\newlabel{consecutive_sampling}{{1}{18}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces Consecutive Sampling\relax }}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Drawing consecutive training sample sequences recursively from a subset\relax }}{18}}
+\newlabel{fig:consecutive_sampling}{{10}{18}}
+\@writefile{toc}{\contentsline {paragraph}{Encoder Output}{18}}
+\newlabel{clustering_context_vector}{{11}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Setup}{20}}
+\newlabel{zscore}{{12}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Training Models}{20}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Batch Size}{20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Several sets of auutoencoder models were trained using minibatch gradient descent optimiser with different batch sizes. They contain \(1+1\) layers, \(2+2\) layers and \(3+3\) layers in the encoder-decoder structures respectively. All hidden layers contain \(400\) neurons. Both \(x\)- and \(y\)-axes are in logarithmic scale.\relax }}{21}}
+\newlabel{fig:minibatch_batch_size}{{11}{21}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Learning Rate}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Training and validation losses of minibatch gradient descent optimisers. Three sets of models containing different number of hidden layers were trained. All models have \(400)\) neurons in each hidden layer.\relax }}{22}}
+\newlabel{fig:learning_rate}{{12}{22}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Advanced Optimisers}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Training and validation losses of various optimisers. All models were trained with same batch size \(B=256\).\relax }}{23}}
+\newlabel{fig:optimisers}{{13}{23}}
+\citation{dauphin}
+\citation{pascanu2014}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.4}Topology}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Effect of different number of neurons and hidden layers on training and validation loss. All models were trained with Adam optimiser (\(B=256\)).\relax }}{24}}
+\newlabel{fig:loss_neuron_hidden}{{14}{24}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.5}Dropout}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Chart showing the effects of various dropout rate.\relax }}{25}}
+\newlabel{fig:dropout_chart}{{15}{25}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.6}Output Dimensions}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Effects of varying output dimensionality on the training and validation losses. Three sets of models were trained, each has different number of hidden layer in the encoder-decoder structure. All models have \(400\) neurons in each hidden layer. Models were trained with Adam optimiser at \(B=256\) with no dropout.\relax }}{26}}
+\newlabel{fig:output_dims}{{16}{26}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.7}Order Reversal}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Effects of sequence reversal on the training and validation losses. Three sets of models were trained, each has different number of hidden layer in the encoder-decoder structure. All models have \(400\) neurons in each hidden layer. Models were trained with Adam optimiser at \(B=256\) with no dropout.\relax }}{27}}
+\newlabel{fig:reverse}{{17}{27}}
+\citation{cho2014b}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.8}Sequence Length}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Effect of sequence length on the training and validation MSE loss of three sets of models. All models were trained with Adam optimiser at \(B=256\) with no dropout.\relax }}{28}}
+\newlabel{fig:sequence_length}{{18}{28}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.9}Sequence Reconstruction}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces A heatmap showing eight randomly selected output sequences in the held-out validation set. Colour represents magnitude of sensor measurements in normalised scale.\relax }}{29}}
+\newlabel{fig:heatmaps}{{19}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Analysing Context Vector}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces A correlation matrix showing the pairwise correlation of all context vectors. Notice the narrow band around the diagonal always has strong correlation.\relax }}{30}}
+\newlabel{fig:matrix}{{20}{30}}
+\newlabel{fig:pca_cluster_2}{{21a}{31}}
+\newlabel{sub@fig:pca_cluster_2}{{a}{31}}
+\newlabel{fig:pca_cluster_4}{{21b}{31}}
+\newlabel{sub@fig:pca_cluster_4}{{b}{31}}
+\newlabel{fig:pca_cluster_6}{{21c}{31}}
+\newlabel{sub@fig:pca_cluster_6}{{c}{31}}
+\newlabel{fig:pca_cluster_7}{{21d}{31}}
+\newlabel{sub@fig:pca_cluster_7}{{d}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Both training and validation sets were fed to the model and the context vectors were extracted. The context vectors were projected into two-dimensional space using PCA. The black solid line joins all consecutive context vectors together as a travelling path. Different number of clusters were identified using simple \(K\)-means algorithm. Clusters and the SVM decision boundaries are coloured in the charts.\relax }}{31}}
+\newlabel{fig:pca_cluster}{{21}{31}}
+\newlabel{fig:context_timeline_2}{{22a}{32}}
+\newlabel{sub@fig:context_timeline_2}{{a}{32}}
+\newlabel{fig:context_timeline_4}{{22b}{32}}
+\newlabel{sub@fig:context_timeline_4}{{b}{32}}
+\newlabel{fig:context_timeline_6}{{22c}{32}}
+\newlabel{sub@fig:context_timeline_6}{{c}{32}}
+\newlabel{fig:context_timeline_7}{{22d}{32}}
+\newlabel{sub@fig:context_timeline_7}{{d}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Output dimensions are visualised on a shared time axis. The black solid line demarcates the training set (\(70\%\)) and validation sets (\(30\%\)). The line segments are colour-coded to match the clusters in the previous figure.\relax }}{32}}
+\newlabel{fig:context_timeline}{{22}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Showing the mean value of each dimension of the \(6\) clusters scenario. The horizontal axis is the time step where \(T=36\).\relax }}{33}}
+\newlabel{fig:cluster_boxplot}{{23}{33}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1}Alternative Example}{34}}
+\newlabel{fig:ex2_pca_cluster_2}{{24a}{34}}
+\newlabel{sub@fig:ex2_pca_cluster_2}{{a}{34}}
+\newlabel{fig:ex2_pca_cluster_4}{{24b}{34}}
+\newlabel{sub@fig:ex2_pca_cluster_4}{{b}{34}}
+\newlabel{fig:ex2_pca_cluster_6}{{24c}{34}}
+\newlabel{sub@fig:ex2_pca_cluster_6}{{c}{34}}
+\newlabel{fig:ex2_pca_cluster_7}{{24d}{34}}
+\newlabel{sub@fig:ex2_pca_cluster_7}{{d}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Context vectors visualised in two-dimensional space via PCA. Various numbers of clusters were identified using \(K\)-means algorithm. The decision boundary was trained by SVM with RBF kernel.\relax }}{34}}
+\newlabel{fig:ex2_pca_cluster}{{24}{34}}
+\newlabel{fig:ex2_context_timeline_2}{{25a}{35}}
+\newlabel{sub@fig:ex2_context_timeline_2}{{a}{35}}
+\newlabel{fig:ex2_context_timeline_4}{{25b}{35}}
+\newlabel{sub@fig:ex2_context_timeline_4}{{b}{35}}
+\newlabel{fig:ex2_context_timeline_6}{{25c}{35}}
+\newlabel{sub@fig:ex2_context_timeline_6}{{c}{35}}
+\newlabel{fig:ex2_context_timeline_7}{{25d}{35}}
+\newlabel{sub@fig:ex2_context_timeline_7}{{d}{35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Output dimensions visualised on a time axis. The training set (\(70\%\)) and validation set (\(30\%\)) are demarcated by the black solid line. Line colour can be matched to the corresponding cluster in figure 24\hbox {}\relax }}{35}}
+\newlabel{fig:ex2_context_timeline}{{25}{35}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{36}}
+\newlabel{fig:contexttravel}{{26a}{36}}
+\newlabel{sub@fig:contexttravel}{{a}{36}}
+\newlabel{fig:contexttravel2}{{26b}{36}}
+\newlabel{sub@fig:contexttravel2}{{b}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Travelling context vector.\relax }}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Professional Issues}{37}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Self-Assessment}{37}}
+\citation{cybenko}
+\citation{françois}
+\citation{hahnloser}
+\citation{maas}
+\citation{he}
+\@writefile{toc}{\contentsline {section}{Appendices}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Activation Functions}{39}}
+\newlabel{sigmoid}{{13a}{39}}
+\newlabel{tanh}{{13b}{40}}
+\newlabel{softplus}{{13c}{40}}
+\newlabel{relu}{{13d}{40}}
+\newlabel{leaky}{{13e}{40}}
+\newlabel{prelu}{{13f}{40}}
+\newlabel{weightedhidden}{{14a}{40}}
+\newlabel{linear}{{14b}{40}}
+\newlabel{softmax}{{14c}{40}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Optimisation}{41}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.1}Batch Gradient Descent}{41}}
+\newlabel{bgd1}{{15a}{41}}
+\newlabel{bgd2}{{15b}{41}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces Batch gradient descent\relax }}{41}}
+\newlabel{bgd}{{2}{41}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.2}Stochastic Gradient Descent}{42}}
+\newlabel{sgd}{{3}{42}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {3}{\ignorespaces Stochastic gradient descent\relax }}{42}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.3}Minibatch Gradient Descent}{42}}
+\newlabel{minibatch}{{4}{43}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {4}{\ignorespaces Minibatch gradient descent\relax }}{43}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.4}Momentum}{43}}
+\newlabel{momentum1}{{16a}{43}}
+\newlabel{momentum2}{{16b}{43}}
+\citation{nesterov1983}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Gradient descent with and without momentum\relax }}{44}}
+\newlabel{fig:momentum}{{27}{44}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.5}Nesterov Momentum}{44}}
+\newlabel{nesterov1}{{17a}{44}}
+\newlabel{nesterov2}{{17b}{44}}
+\newlabel{nesterov3}{{17c}{44}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.6}Decay}{44}}
+\citation{duchi2011}
+\citation{hinton2012unpub}
+\newlabel{decay}{{18}{45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.7}Adagrad}{45}}
+\newlabel{adagrad1}{{19a}{45}}
+\newlabel{adagrad2}{{19b}{45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.8}RMSprop}{45}}
+\citation{kingma2014}
+\newlabel{rmsprop1}{{20a}{46}}
+\newlabel{rmsprop2}{{20b}{46}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B.9}Adam}{46}}
+\newlabel{adam1}{{21a}{46}}
+\newlabel{adam2}{{21b}{46}}
+\newlabel{adam3}{{21c}{46}}
+\newlabel{adam4}{{21d}{46}}
+\newlabel{adam5}{{21e}{46}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}Code Execution}{47}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Sensors Data}{48}}
+\@writefile{toc}{\contentsline {section}{\numberline {E}Sensor Locations}{51}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces A more detailed figure showing sensor location at the compressor.\relax }}{51}}
+\newlabel{fig:lp-stage}{{28}{51}}
+\bibstyle{plain}
+\bibdata{bibliography}
+\bibcite{bengio1994}{1}
+\bibcite{françois}{2}
+\bibcite{cho2014b}{3}
+\bibcite{cho2014}{4}
+\bibcite{cybenko}{5}
+\bibcite{dauphin}{6}
+\bibcite{duchi2011}{7}
+\bibcite{elman}{8}
+\bibcite{gers2000}{9}
+\bibcite{gers2003}{10}
+\bibcite{goodfellow}{11}
+\bibcite{graves2012}{12}
+\bibcite{hahnloser}{13}
+\bibcite{he}{14}
+\bibcite{hinton2012unpub}{15}
+\@writefile{toc}{\contentsline {section}{References}{52}}
+\bibcite{hochreiter1991}{16}
+\bibcite{hochreiter2001}{17}
+\bibcite{hochreiter1997}{18}
+\bibcite{jordan}{19}
+\bibcite{kingma2014}{20}
+\bibcite{maas}{21}
+\bibcite{mcculloch}{22}
+\bibcite{olah}{23}
+\bibcite{pascanu2014}{24}
+\bibcite{pascanu2012}{25}
+\bibcite{rosenblatt}{26}
+\bibcite{srivastava2014}{27}
+\bibcite{sutskever2014}{28}
+\bibcite{venugopalan2014}{29}
+\bibcite{vinyals2015}{30}
+\bibcite{vinyals2014}{31}
+\bibcite{nesterov1983}{32}
+\bibcite{zaremba2014}{33}

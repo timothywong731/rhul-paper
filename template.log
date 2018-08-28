@@ -1,0 +1,907 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.1.24)  28 AUG 2018 11:40
+entering extended mode
+**./template.tex
+(template.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (BigDataStyle.txt)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks24
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count99
+\float@exts=\toks26
+\float@box=\box28
+\@float@everytoks=\toks27
+\@floatcapt=\box29
+)
+(C:\Users\wong0s\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(C:\Users\wong0s\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(C:\Users\wong0s\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen114
+\captionmargin@=\dimen115
+\captionwidth=\dimen116
+\caption@tempdima=\dimen117
+\caption@indent=\dimen118
+\caption@parindent=\dimen119
+\caption@hangindent=\dimen120
+)
+\c@ContinuedFloat=\count100
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count101
+\c@subtable=\count102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count103
+\Gm@cntv=\count104
+\c@Gm@tempcnt=\count105
+\Gm@bindingoffset=\dimen121
+\Gm@wd@mp=\dimen122
+\Gm@odd@mp=\dimen123
+\Gm@even@mp=\dimen124
+\Gm@layoutwidth=\dimen125
+\Gm@layoutheight=\dimen126
+\Gm@layouthoffset=\dimen127
+\Gm@layoutvoffset=\dimen128
+\Gm@dimlist=\toks28
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+(C:\Users\wong0s\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen129
+\lightrulewidth=\dimen130
+\cmidrulewidth=\dimen131
+\belowrulesep=\dimen132
+\belowbottomsep=\dimen133
+\aboverulesep=\dimen134
+\abovetopsep=\dimen135
+\cmidrulesep=\dimen136
+\cmidrulekern=\dimen137
+\defaultaddspace=\dimen138
+\@cmidla=\count106
+\@cmidlb=\count107
+\@aboverulesep=\dimen139
+\@belowrulesep=\dimen140
+\@thisruleclass=\count108
+\@lastruleclass=\count109
+\@thisrulewidth=\dimen141
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count110
+\mult@box=\box30
+\multicol@leftmargin=\dimen142
+\c@unbalance=\count111
+\c@collectmore=\count112
+\doublecol@number=\count113
+\multicoltolerance=\count114
+\multicolpretolerance=\count115
+\full@width=\dimen143
+\page@free=\dimen144
+\premulticols=\dimen145
+\postmulticols=\dimen146
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen147
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count116
+\c@finalcolumnbadness=\count117
+\last@try=\dimen148
+\multicolovershoot=\dimen149
+\multicolundershoot=\dimen150
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count118
+)
+(C:\Users\wong0s\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithm2e\algorithm2e.s
+ty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count119
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip51
+
+(C:\Users\wong0s\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count120
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+\skiptotal=\skip52
+\skiplinenumber=\skip53
+\skiprule=\skip54
+\skiphlne=\skip55
+\skiptext=\skip56
+\skiplength=\skip57
+\algomargin=\skip58
+\skipalgocfslide=\skip59
+\algowidth=\dimen151
+\inoutsize=\dimen152
+\inoutindent=\dimen153
+\interspacetitleruled=\dimen154
+\interspacealgoruled=\dimen155
+\interspacetitleboxruled=\dimen156
+\algocf@ruledwidth=\skip60
+\algocf@inoutbox=\box56
+\algocf@inputbox=\box57
+\AlCapSkip=\skip61
+\AlCapHSkip=\skip62
+\algoskipindent=\skip63
+\algocf@nlbox=\box58
+\algocf@hangingbox=\box59
+\algocf@untilbox=\box60
+\algocf@skipuntil=\skip64
+\algocf@capbox=\box61
+\algocf@lcaptionbox=\skip65
+\algoheightruledefault=\skip66
+\algoheightrule=\skip67
+\algotitleheightruledefault=\skip68
+\algotitleheightrule=\skip69
+\c@algocfline=\count121
+\c@algocfproc=\count122
+\c@algocf=\count123
+\algocf@algoframe=\box62
+\algocf@algobox=\box63
+)
+(C:\Users\wong0s\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count124
+\c@@ppsavesec=\count125
+\c@@ppsaveapp=\count126
+)
+\c@theorem=\count127
+
+(template.aux)
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+
+(C:\Users\wong0s\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count128
+\scratchdimen=\dimen157
+\scratchbox=\box64
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen158
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks30
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 31.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+<RHULlogo.jpg, id=1, 414.04688pt x 207.02344pt>
+File: RHULlogo.jpg Graphic file (type jpg)
+<use RHULlogo.jpg>
+Package pdftex.def Info: RHULlogo.jpg  used on input line 31. on input line 31.
+
+Package pdftex.def Info: Requested size: 171.99922pt x 86.00156pt on input line
+ 31.
+ [1
+
+{C:/Users/wong0s/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./RHULlogo
+.jpg>]
+<timothy.PNG, id=8, 2214.2725pt x 1058.95625pt>
+File: timothy.PNG Graphic file (type png)
+<use timothy.PNG>
+Package pdftex.def Info: timothy.PNG  used on input line 33. on input line 33.
+Package pdftex.def Info: Requested size: 85.9996pt x 41.123pt on input line 33.
+
+ [1 <./timothy.PNG>] [1] (template.toc [2])
+\tf@toc=\write3
+\openout3 = `template.toc'.
+
+ [3]
+<process_diagram.PNG, id=25, 1853.42438pt x 1072.75781pt>
+File: process_diagram.PNG Graphic file (type png)
+<use process_diagram.PNG>
+Package pdftex.def Info: process_diagram.PNG  used on input line 55. on input l
+ine 55.
+Package pdftex.def Info: Requested size: 430.00462pt x 248.87344pt on input lin
+e 55.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¦ in font cmr10!
+[1] [2 <./process_diagram.PNG>] [3]
+<tumbling_time_window.PNG, id=41, 1892.57062pt x 466.74374pt>
+File: tumbling_time_window.PNG Graphic file (type png)
+<use tumbling_time_window.PNG>
+Package pdftex.def Info: tumbling_time_window.PNG  used on input line 89. on in
+put line 89.
+Package pdftex.def Info: Requested size: 430.00462pt x 106.04549pt on input lin
+e 89.
+ [4]
+<sliding_time_window.PNG, id=48, 1915.155pt x 505.89pt>
+File: sliding_time_window.PNG Graphic file (type png)
+<use sliding_time_window.PNG>
+Package pdftex.def Info: sliding_time_window.PNG  used on input line 101. on in
+put line 101.
+Package pdftex.def Info: Requested size: 430.00462pt x 113.58104pt on input lin
+e 101.
+<preprocessing.PNG, id=49, 1470.24281pt x 437.38406pt>
+File: preprocessing.PNG Graphic file (type png)
+<use preprocessing.PNG>
+Package pdftex.def Info: preprocessing.PNG  used on input line 113. on input li
+ne 113.
+Package pdftex.def Info: Requested size: 430.00462pt x 127.9193pt on input line
+ 113.
+ [5 <./tumbling_time_window.PNG> <./sliding_time_window.PNG>] [6 <./preprocessi
+ng.PNG>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+<ann.PNG, id=59, 901.86937pt x 647.41875pt>
+File: ann.PNG Graphic file (type png)
+<use ann.PNG>
+Package pdftex.def Info: ann.PNG  used on input line 130. on input line 130.
+Package pdftex.def Info: Requested size: 279.50037pt x 200.63846pt on input lin
+e 130.
+ [7 <./ann.PNG>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [8]
+<rnn.PNG, id=70, 1656.1875pt x 438.8897pt>
+File: rnn.PNG Graphic file (type png)
+<use rnn.PNG>
+Package pdftex.def Info: rnn.PNG  used on input line 179. on input line 179.
+Package pdftex.def Info: Requested size: 430.00462pt x 113.94789pt on input lin
+e 179.
+ [9 <./rnn.PNG>] [10]
+<lstm.PNG, id=79, 1265.47781pt x 635.37375pt>
+File: lstm.PNG Graphic file (type png)
+<use lstm.PNG>
+Package pdftex.def Info: lstm.PNG  used on input line 251. on input line 251.
+Package pdftex.def Info: Requested size: 430.00462pt x 215.89818pt on input lin
+e 251.
+ [11]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [12 <./lstm.PNG>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+<dropout.PNG, id=87, 705.38531pt x 463.7325pt>
+File: dropout.PNG Graphic file (type png)
+<use dropout.PNG>
+Package pdftex.def Info: dropout.PNG  used on input line 317. on input line 317
+.
+Package pdftex.def Info: Requested size: 215.0023pt x 141.34267pt on input line
+ 317.
+ [13]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+<seq2seq.PNG, id=91, 2043.13312pt x 708.39656pt>
+File: seq2seq.PNG Graphic file (type png)
+<use seq2seq.PNG>
+Package pdftex.def Info: seq2seq.PNG  used on input line 332. on input line 332
+.
+Package pdftex.def Info: Requested size: 430.00462pt x 149.08113pt on input lin
+e 332.
+ [14 <./dropout.PNG>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [15 <./seq2seq.PNG>] [16] [17]
+<consecutive_sampling.PNG, id=109, 1495.83844pt x 477.28313pt>
+File: consecutive_sampling.PNG Graphic file (type png)
+<use consecutive_sampling.PNG>
+Package pdftex.def Info: consecutive_sampling.PNG  used on input line 438. on i
+nput line 438.
+Package pdftex.def Info: Requested size: 430.00462pt x 137.19962pt on input lin
+e 438.
+ [18 <./consecutive_sampling.PNG>] [19] [20]
+<minibatch_batch_size.PNG, id=122, 1224.82594pt x 441.90094pt>
+File: minibatch_batch_size.PNG Graphic file (type png)
+<use minibatch_batch_size.PNG>
+Package pdftex.def Info: minibatch_batch_size.PNG  used on input line 490. on i
+nput line 490.
+Package pdftex.def Info: Requested size: 430.00462pt x 155.13963pt on input lin
+e 490.
+ [21 <./minibatch_batch_size.PNG>]
+<learning_rate.PNG, id=127, 1126.96031pt x 472.01344pt>
+File: learning_rate.PNG Graphic file (type png)
+<use learning_rate.PNG>
+Package pdftex.def Info: learning_rate.PNG  used on input line 505. on input li
+ne 505.
+Package pdftex.def Info: Requested size: 430.00462pt x 180.10161pt on input lin
+e 505.
+<optimisers.PNG, id=128, 1233.85968pt x 458.46281pt>
+File: optimisers.PNG Graphic file (type png)
+<use optimisers.PNG>
+Package pdftex.def Info: optimisers.PNG  used on input line 518. on input line 
+518.
+Package pdftex.def Info: Requested size: 430.00462pt x 159.77182pt on input lin
+e 518.
+ [22 <./learning_rate.PNG>] [23 <./optimisers.PNG>]
+<loss_neuron_hidden.PNG, id=137, 1120.185pt x 415.5525pt>
+File: loss_neuron_hidden.PNG Graphic file (type png)
+<use loss_neuron_hidden.PNG>
+Package pdftex.def Info: loss_neuron_hidden.PNG  used on input line 537. on inp
+ut line 537.
+Package pdftex.def Info: Requested size: 430.00462pt x 159.51581pt on input lin
+e 537.
+ [24 <./loss_neuron_hidden.PNG>]
+<dropout_chart.PNG, id=142, 1041.8925pt x 423.08063pt>
+File: dropout_chart.PNG Graphic file (type png)
+<use dropout_chart.PNG>
+Package pdftex.def Info: dropout_chart.PNG  used on input line 556. on input li
+ne 556.
+Package pdftex.def Info: Requested size: 430.00462pt x 174.61328pt on input lin
+e 556.
+ [25 <./dropout_chart.PNG>]
+<output_dims.PNG, id=147, 1292.57906pt x 427.5975pt>
+File: output_dims.PNG Graphic file (type png)
+<use output_dims.PNG>
+Package pdftex.def Info: output_dims.PNG  used on input line 573. on input line
+ 573.
+Package pdftex.def Info: Requested size: 430.00462pt x 142.2494pt on input line
+ 573.
+ [26 <./output_dims.PNG>]
+<reverse.PNG, id=153, 940.26282pt x 360.59718pt>
+File: reverse.PNG Graphic file (type png)
+<use reverse.PNG>
+Package pdftex.def Info: reverse.PNG  used on input line 590. on input line 590
+.
+Package pdftex.def Info: Requested size: 430.00462pt x 164.90831pt on input lin
+e 590.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [27 <./reverse.PNG>]
+<sequence_length.PNG, id=158, 941.76843pt x 357.58594pt>
+File: sequence_length.PNG Graphic file (type png)
+<use sequence_length.PNG>
+Package pdftex.def Info: sequence_length.PNG  used on input line 605. on input 
+line 605.
+Package pdftex.def Info: Requested size: 430.00462pt x 163.2693pt on input line
+ 605.
+ [28 <./sequence_length.PNG>]
+<heatmaps.PNG, id=163, 973.38657pt x 645.16031pt>
+File: heatmaps.PNG Graphic file (type png)
+<use heatmaps.PNG>
+Package pdftex.def Info: heatmaps.PNG  used on input line 622. on input line 62
+2.
+Package pdftex.def Info: Requested size: 430.00462pt x 285.00351pt on input lin
+e 622.
+ [29 <./heatmaps.PNG>]
+<matrix.PNG, id=168, 454.69875pt x 328.22626pt>
+File: matrix.PNG Graphic file (type png)
+<use matrix.PNG>
+Package pdftex.def Info: matrix.PNG  used on input line 637. on input line 637.
+
+Package pdftex.def Info: Requested size: 301.00192pt x 217.28107pt on input lin
+e 637.
+<pca_cluster_2.PNG, id=169, 694.84593pt x 457.71pt>
+File: pca_cluster_2.PNG Graphic file (type png)
+<use pca_cluster_2.PNG>
+Package pdftex.def Info: pca_cluster_2.PNG  used on input line 650. on input li
+ne 650.
+Package pdftex.def Info: Requested size: 206.40038pt x 135.95915pt on input lin
+e 650.
+<pca_cluster_4.PNG, id=170, 694.84593pt x 459.96844pt>
+File: pca_cluster_4.PNG Graphic file (type png)
+<use pca_cluster_4.PNG>
+Package pdftex.def Info: pca_cluster_4.PNG  used on input line 656. on input li
+ne 656.
+Package pdftex.def Info: Requested size: 206.40038pt x 136.62999pt on input lin
+e 656.
+<pca_cluster_6.PNG, id=171, 695.59875pt x 455.45157pt>
+File: pca_cluster_6.PNG Graphic file (type png)
+<use pca_cluster_6.PNG>
+Package pdftex.def Info: pca_cluster_6.PNG  used on input line 662. on input li
+ne 662.
+Package pdftex.def Info: Requested size: 206.40038pt x 135.14235pt on input lin
+e 662.
+<pca_cluster_7.PNG, id=172, 691.83469pt x 456.95718pt>
+File: pca_cluster_7.PNG Graphic file (type png)
+<use pca_cluster_7.PNG>
+Package pdftex.def Info: pca_cluster_7.PNG  used on input line 668. on input li
+ne 668.
+Package pdftex.def Info: Requested size: 206.40038pt x 136.32819pt on input lin
+e 668.
+ [30 <./matrix.PNG>]
+<context_timeline_2.PNG, id=177, 361.35pt x 487.8225pt>
+File: context_timeline_2.PNG Graphic file (type png)
+<use context_timeline_2.PNG>
+Package pdftex.def Info: context_timeline_2.PNG  used on input line 684. on inp
+ut line 684.
+Package pdftex.def Info: Requested size: 171.99922pt x 232.20192pt on input lin
+e 684.
+<context_timeline_4.PNG, id=178, 364.36125pt x 484.05844pt>
+File: context_timeline_4.PNG Graphic file (type png)
+<use context_timeline_4.PNG>
+Package pdftex.def Info: context_timeline_4.PNG  used on input line 690. on inp
+ut line 690.
+Package pdftex.def Info: Requested size: 171.99922pt x 228.49724pt on input lin
+e 690.
+<context_timeline_6.PNG, id=179, 365.86688pt x 481.04718pt>
+File: context_timeline_6.PNG Graphic file (type png)
+<use context_timeline_6.PNG>
+Package pdftex.def Info: context_timeline_6.PNG  used on input line 696. on inp
+ut line 696.
+Package pdftex.def Info: Requested size: 171.99922pt x 226.15092pt on input lin
+e 696.
+<context_timeline_7.PNG, id=180, 438.13687pt x 631.60968pt>
+File: context_timeline_7.PNG Graphic file (type png)
+<use context_timeline_7.PNG>
+Package pdftex.def Info: context_timeline_7.PNG  used on input line 702. on inp
+ut line 702.
+Package pdftex.def Info: Requested size: 171.99922pt x 247.95554pt on input lin
+e 702.
+
+[31 <./pca_cluster_2.PNG> <./pca_cluster_4.PNG> <./pca_cluster_6.PNG> <./pca_cl
+uster_7.PNG>]
+Overfull \vbox (11.4809pt too high) has occurred while \output is active []
+
+
+[32 <./context_timeline_2.PNG> <./context_timeline_4.PNG> <./context_timeline_6
+.PNG> <./context_timeline_7.PNG>]
+<cluster_boxplot.PNG, id=196, 926.71219pt x 394.47375pt>
+File: cluster_boxplot.PNG Graphic file (type png)
+<use cluster_boxplot.PNG>
+Package pdftex.def Info: cluster_boxplot.PNG  used on input line 721. on input 
+line 721.
+Package pdftex.def Info: Requested size: 408.50307pt x 173.888pt on input line 
+721.
+ [33 <./cluster_boxplot.PNG>]
+<ex2_pca_cluster_2.PNG, id=201, 691.08188pt x 454.69875pt>
+File: ex2_pca_cluster_2.PNG Graphic file (type png)
+<use ex2_pca_cluster_2.PNG>
+Package pdftex.def Info: ex2_pca_cluster_2.PNG  used on input line 735. on inpu
+t line 735.
+Package pdftex.def Info: Requested size: 206.40038pt x 135.80011pt on input lin
+e 735.
+<ex2_pca_cluster_4.PNG, id=202, 694.84593pt x 456.95718pt>
+File: ex2_pca_cluster_4.PNG Graphic file (type png)
+<use ex2_pca_cluster_4.PNG>
+Package pdftex.def Info: ex2_pca_cluster_4.PNG  used on input line 741. on inpu
+t line 741.
+Package pdftex.def Info: Requested size: 206.40038pt x 135.73552pt on input lin
+e 741.
+<ex2_pca_cluster_6.PNG, id=203, 691.83469pt x 456.95718pt>
+File: ex2_pca_cluster_6.PNG Graphic file (type png)
+<use ex2_pca_cluster_6.PNG>
+Package pdftex.def Info: ex2_pca_cluster_6.PNG  used on input line 747. on inpu
+t line 747.
+Package pdftex.def Info: Requested size: 206.40038pt x 136.32819pt on input lin
+e 747.
+<ex2_pca_cluster_7.PNG, id=204, 690.32906pt x 452.4403pt>
+File: ex2_pca_cluster_7.PNG Graphic file (type png)
+<use ex2_pca_cluster_7.PNG>
+Package pdftex.def Info: ex2_pca_cluster_7.PNG  used on input line 753. on inpu
+t line 753.
+Package pdftex.def Info: Requested size: 206.40038pt x 135.27058pt on input lin
+e 753.
+<ex2_context_timeline_2.PNG, id=205, 732.48656pt x 290.58563pt>
+File: ex2_context_timeline_2.PNG Graphic file (type png)
+<use ex2_context_timeline_2.PNG>
+Package pdftex.def Info: ex2_context_timeline_2.PNG  used on input line 769. on
+ input line 769.
+Package pdftex.def Info: Requested size: 171.99922pt x 68.22998pt on input line
+ 769.
+<ex2_context_timeline_4.PNG, id=206, 730.22812pt x 289.83281pt>
+File: ex2_context_timeline_4.PNG Graphic file (type png)
+<use ex2_context_timeline_4.PNG>
+Package pdftex.def Info: ex2_context_timeline_4.PNG  used on input line 775. on
+ input line 775.
+Package pdftex.def Info: Requested size: 171.99922pt x 68.2655pt on input line 
+775.
+<ex2_context_timeline_6.PNG, id=207, 733.23938pt x 289.83281pt>
+File: ex2_context_timeline_6.PNG Graphic file (type png)
+<use ex2_context_timeline_6.PNG>
+Package pdftex.def Info: ex2_context_timeline_6.PNG  used on input line 781. on
+ input line 781.
+Package pdftex.def Info: Requested size: 171.99922pt x 67.98688pt on input line
+ 781.
+<ex2_context_timeline_7.PNG, id=208, 732.48656pt x 289.08pt>
+File: ex2_context_timeline_7.PNG Graphic file (type png)
+<use ex2_context_timeline_7.PNG>
+Package pdftex.def Info: ex2_context_timeline_7.PNG  used on input line 787. on
+ input line 787.
+Package pdftex.def Info: Requested size: 171.99922pt x 67.87646pt on input line
+ 787.
+ [34 <./ex2_pca_cluster_2.PNG> <./ex2_pca_cluster_4.PNG> <./ex2_pca_cluster_6.P
+NG> <./ex2_pca_cluster_7.PNG>] [35 <./ex2_context_timeline_2.PNG> <./ex2_contex
+t_timeline_4.PNG> <./ex2_context_timeline_6.PNG> <./ex2_context_timeline_7.PNG>
+]
+<contexttravel.PNG, id=223, 522.45187pt x 454.69875pt>
+File: contexttravel.PNG Graphic file (type png)
+<use contexttravel.PNG>
+Package pdftex.def Info: contexttravel.PNG  used on input line 812. on input li
+ne 812.
+Package pdftex.def Info: Requested size: 150.50424pt x 130.98505pt on input lin
+e 812.
+<contexttravel2.PNG, id=224, 569.12625pt x 475.7775pt>
+File: contexttravel2.PNG Graphic file (type png)
+<use contexttravel2.PNG>
+Package pdftex.def Info: contexttravel2.PNG  used on input line 818. on input l
+ine 818.
+Package pdftex.def Info: Requested size: 150.50424pt x 125.81908pt on input lin
+e 818.
+ [36 <./contexttravel.PNG> <./contexttravel2.PNG>] [37] [38]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [39]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [40]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+ [41] [42]
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ± in font cmr10!
+<momentum.PNG, id=250, 1765.3453pt x 643.6547pt>
+File: momentum.PNG Graphic file (type png)
+<use momentum.PNG>
+Package pdftex.def Info: momentum.PNG  used on input line 1044. on input line 1
+044.
+Package pdftex.def Info: Requested size: 430.00462pt x 156.77847pt on input lin
+e 1044.
+ [43] [44 <./momentum.PNG>]
+Missing character: There is no Î in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+ [45]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [46]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1177
+.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1177.
+
+[47] [48] [49]
+<lp-stage.PNG, id=274, 788.9475pt x 518.6878pt>
+File: lp-stage.PNG Graphic file (type png)
+<use lp-stage.PNG>
+Package pdftex.def Info: lp-stage.PNG  used on input line 1372. on input line 1
+372.
+Package pdftex.def Info: Requested size: 301.00192pt x 197.88695pt on input lin
+e 1372.
+ [50] [51 <./lp-stage.PNG>] (template.bbl
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no © in font cmr10!
+ [52]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ¼ in font cmr10!
+ [53]) [54]
+(template.aux) ) 
+Here is how much of TeX's memory you used:
+ 5792 strings out of 493323
+ 88302 string characters out of 3139063
+ 170789 words of memory out of 3000000
+ 9172 multiletter control sequences out of 15000+200000
+ 17012 words of font info for 70 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,15n,40p,1029b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on template.pdf (59 pages, 3848286 bytes).
+PDF statistics:
+ 350 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+

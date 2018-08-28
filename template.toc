@@ -1,0 +1,56 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {subsection}{\numberline {1.1}Application Area}{1}
+\contentsline {subsection}{\numberline {1.2}Problem Formulation}{2}
+\contentsline {section}{\numberline {2}Data Preprocessing}{4}
+\contentsline {subsection}{\numberline {2.1}Downsampling}{4}
+\contentsline {subsubsection}{\numberline {2.1.1}Tumbling Time Window}{4}
+\contentsline {subsubsection}{\numberline {2.1.2}Sliding Time Window}{5}
+\contentsline {subsection}{\numberline {2.2}Subsetting}{5}
+\contentsline {section}{\numberline {3}Methods}{7}
+\contentsline {subsection}{\numberline {3.1}Recurrent Neural Network}{8}
+\contentsline {subsubsection}{\numberline {3.1.1}Backpropagation Through Time}{9}
+\contentsline {paragraph}{Forward propagation}{9}
+\contentsline {paragraph}{Weight Update}{10}
+\contentsline {subsubsection}{\numberline {3.1.2}Unstable Gradient}{11}
+\contentsline {subsubsection}{\numberline {3.1.3}Long Short-Term Memory}{11}
+\contentsline {subsubsection}{\numberline {3.1.4}Regularisation}{13}
+\contentsline {subsection}{\numberline {3.2}Sequence-to-Sequence Model}{14}
+\contentsline {subsubsection}{\numberline {3.2.1}Encoding}{15}
+\contentsline {subsubsection}{\numberline {3.2.2}Decoding}{16}
+\contentsline {subsubsection}{\numberline {3.2.3}Recurrent Autoencoder}{17}
+\contentsline {paragraph}{Dimensionality Relaxation}{17}
+\contentsline {paragraph}{Consecutive Sampling}{18}
+\contentsline {paragraph}{Encoder Output}{18}
+\contentsline {section}{\numberline {4}Results}{20}
+\contentsline {subsection}{\numberline {4.1}Setup}{20}
+\contentsline {subsection}{\numberline {4.2}Training Models}{20}
+\contentsline {subsubsection}{\numberline {4.2.1}Batch Size}{20}
+\contentsline {subsubsection}{\numberline {4.2.2}Learning Rate}{21}
+\contentsline {subsubsection}{\numberline {4.2.3}Advanced Optimisers}{22}
+\contentsline {subsubsection}{\numberline {4.2.4}Topology}{24}
+\contentsline {subsubsection}{\numberline {4.2.5}Dropout}{25}
+\contentsline {subsubsection}{\numberline {4.2.6}Output Dimensions}{26}
+\contentsline {subsubsection}{\numberline {4.2.7}Order Reversal}{27}
+\contentsline {subsubsection}{\numberline {4.2.8}Sequence Length}{28}
+\contentsline {subsubsection}{\numberline {4.2.9}Sequence Reconstruction}{28}
+\contentsline {subsection}{\numberline {4.3}Analysing Context Vector}{29}
+\contentsline {subsubsection}{\numberline {4.3.1}Alternative Example}{34}
+\contentsline {section}{\numberline {5}Discussion}{36}
+\contentsline {subsection}{\numberline {5.1}Professional Issues}{37}
+\contentsline {subsubsection}{\numberline {5.1.1}Self-Assessment}{37}
+\contentsline {section}{Appendices}{39}
+\contentsline {section}{\numberline {A}Activation Functions}{39}
+\contentsline {section}{\numberline {B}Optimisation}{41}
+\contentsline {subsection}{\numberline {B.1}Batch Gradient Descent}{41}
+\contentsline {subsection}{\numberline {B.2}Stochastic Gradient Descent}{42}
+\contentsline {subsection}{\numberline {B.3}Minibatch Gradient Descent}{42}
+\contentsline {subsection}{\numberline {B.4}Momentum}{43}
+\contentsline {subsection}{\numberline {B.5}Nesterov Momentum}{44}
+\contentsline {subsection}{\numberline {B.6}Decay}{44}
+\contentsline {subsection}{\numberline {B.7}Adagrad}{45}
+\contentsline {subsection}{\numberline {B.8}RMSprop}{45}
+\contentsline {subsection}{\numberline {B.9}Adam}{46}
+\contentsline {section}{\numberline {C}Code Execution}{47}
+\contentsline {section}{\numberline {D}Sensors Data}{48}
+\contentsline {section}{\numberline {E}Sensor Locations}{51}
+\contentsline {section}{References}{52}

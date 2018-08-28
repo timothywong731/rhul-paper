@@ -1,0 +1,185 @@
+\begin{thebibliography}{10}
+
+\bibitem{bengio1994}
+Y.~Bengio, P.~Simard, and P.~Frasconi.
+\newblock Learning long-term dependencies with gradient descent is difficult.
+\newblock {\em IEEE Transactions on Neural Networks}, 5(2):157--166, Mar 1994.
+
+\bibitem{françois}
+François Bélisle, Y~Bengio, Charles Dugas, Rene Garcia, and Claude Nadeau.
+\newblock Incorporating second-order functional knowledge for better option
+  pricing.
+\newblock 01 2002.
+
+\bibitem{cho2014b}
+KyungHyun Cho, Bart van Merrienboer, Dzmitry Bahdanau, and Yoshua Bengio.
+\newblock On the properties of neural machine translation: Encoder-decoder
+  approaches.
+\newblock {\em CoRR}, abs/1409.1259, 2014.
+
+\bibitem{cho2014}
+Kyunghyun Cho, Bart van Merrienboer, {\c{C}}aglar G{\"{u}}l{\c{c}}ehre, Fethi
+  Bougares, Holger Schwenk, and Yoshua Bengio.
+\newblock Learning phrase representations using {RNN} encoder-decoder for
+  statistical machine translation.
+\newblock {\em CoRR}, abs/1406.1078, 2014.
+
+\bibitem{cybenko}
+George Cybenko.
+\newblock Approximation by superpositions of a sigmoidal function.
+\newblock {\em Mathematics of Control, Signals and Systems}, 2(4):303--314,
+  1989.
+
+\bibitem{dauphin}
+Yann Dauphin, Razvan Pascanu, {\c{C}}aglar G{\"{u}}l{\c{c}}ehre, Kyunghyun Cho,
+  Surya Ganguli, and Yoshua Bengio.
+\newblock Identifying and attacking the saddle point problem in
+  high-dimensional non-convex optimization.
+\newblock {\em CoRR}, abs/1406.2572, 2014.
+
+\bibitem{duchi2011}
+John Duchi, Elad Hazan, and Yoram Singer.
+\newblock Adaptive subgradient methods for online learning and stochastic
+  optimization.
+\newblock {\em J. Mach. Learn. Res.}, 12:2121--2159, July 2011.
+
+\bibitem{elman}
+Jeffrey~L. Elman.
+\newblock Finding structure in time.
+\newblock {\em Cognitive Science}, 14(2):179--211, 1990.
+
+\bibitem{gers2000}
+F.~A. Gers, J.~Schmidhuber, and F.~Cummins.
+\newblock Learning to forget: Continual prediction with lstm.
+\newblock {\em Neural Computation}, 12(10):2451--2471, Oct 2000.
+
+\bibitem{gers2003}
+Felix~A. Gers, Nicol~N. Schraudolph, and J\"{u}rgen Schmidhuber.
+\newblock Learning precise timing with lstm recurrent networks.
+\newblock {\em J. Mach. Learn. Res.}, 3:115--143, March 2003.
+
+\bibitem{goodfellow}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+
+\bibitem{graves2012}
+Alex Graves.
+\newblock {\em Supervised Sequence Labelling with Recurrent Neural Networks}.
+\newblock Number 385 in Studies in Computational Intelligence. Springer, 1
+  edition, 2012.
+
+\bibitem{hahnloser}
+Richard Hahnloser, Rahul Sarpeshkar, Misha A.~Mahowald, Rodney Douglas, and
+  H~Sebastian~Seung.
+\newblock Digital selection and analogue amplification coexist in a
+  cortex-inspired silicon circuit.
+\newblock 405:947--51, 07 2000.
+
+\bibitem{he}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Delving deep into rectifiers: Surpassing human-level performance on
+  imagenet classification.
+\newblock {\em CoRR}, abs/1502.01852, 2015.
+
+\bibitem{hinton2012unpub}
+Geoffrey Hinton, Nitish Srivastava, and Kevin Swersky.
+\newblock {\em Overview of mini-batch gradient descent}.
+\newblock Coursera.
+
+\bibitem{hochreiter1991}
+Sepp Hochreiter.
+\newblock Untersuchungen zu dynamischen neuronalen netzen.
+
+\bibitem{hochreiter2001}
+Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber.
+\newblock Gradient flow in recurrent nets: the difficulty of learning long-term
+  dependencies, 2001.
+
+\bibitem{hochreiter1997}
+Sepp Hochreiter and J\"{u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural Computation}, 9(8):1735--1780, November 1997.
+
+\bibitem{jordan}
+Michael~I. Jordan.
+\newblock Artificial neural networks.
+\newblock chapter Attractor Dynamics and Parallelism in a Connectionist
+  Sequential Machine, pages 112--127. IEEE Press, Piscataway, NJ, USA, 1990.
+
+\bibitem{kingma2014}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: {A} method for stochastic optimization.
+\newblock {\em CoRR}, abs/1412.6980, 2014.
+
+\bibitem{maas}
+Andrew~L. Maas, Awni~Y. Hannun, and Andrew~Y. Ng.
+\newblock Rectifier nonlinearities improve neural network acoustic models.
+\newblock 2013.
+
+\bibitem{mcculloch}
+Warren~S. McCulloch and Walter Pitts.
+\newblock A logical calculus of the ideas immanent in nervous activity.
+\newblock {\em The bulletin of mathematical biophysics}, 5(4):115--133, Dec
+  1943.
+
+\bibitem{olah}
+Christopher Olah.
+\newblock Understanding lstm networks, 2015.
+
+\bibitem{pascanu2014}
+Razvan Pascanu, Yann~N. Dauphin, Surya Ganguli, and Yoshua Bengio.
+\newblock On the saddle point problem for non-convex optimization.
+\newblock {\em CoRR}, abs/1405.4604, 2014.
+
+\bibitem{pascanu2012}
+Razvan Pascanu, Tomas Mikolov, and Yoshua Bengio.
+\newblock Understanding the exploding gradient problem.
+\newblock {\em CoRR}, abs/1211.5063, 2012.
+
+\bibitem{rosenblatt}
+F.~Rosenblatt.
+\newblock The perceptron: A probabilistic model for information storage and
+  organization in the brain.
+\newblock {\em Psychological Review}, pages 65--386, 1958.
+
+\bibitem{srivastava2014}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov.
+\newblock Dropout: A simple way to prevent neural networks from overfitting.
+\newblock {\em Journal of Machine Learning Research}, 15:1929--1958, 2014.
+
+\bibitem{sutskever2014}
+Ilya Sutskever, Oriol Vinyals, and Quoc~V. Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock {\em CoRR}, abs/1409.3215, 2014.
+
+\bibitem{venugopalan2014}
+Subhashini Venugopalan, Huijuan Xu, Jeff Donahue, Marcus Rohrbach, Raymond~J.
+  Mooney, and Kate Saenko.
+\newblock Translating videos to natural language using deep recurrent neural
+  networks.
+\newblock {\em CoRR}, abs/1412.4729, 2014.
+
+\bibitem{vinyals2015}
+Oriol Vinyals and Quoc~V. Le.
+\newblock A neural conversational model.
+\newblock {\em CoRR}, abs/1506.05869, 2015.
+
+\bibitem{vinyals2014}
+Oriol Vinyals, Alexander Toshev, Samy Bengio, and Dumitru Erhan.
+\newblock Show and tell: {A} neural image caption generator.
+\newblock {\em CoRR}, abs/1411.4555, 2014.
+
+\bibitem{nesterov1983}
+Nesterov Yurii.
+\newblock A method for unconstrained convex minimization problem with the rate
+  of convergence o(1/k2).
+\newblock {\em Doklady ANSSSR}, 269:543--547, 1983.
+
+\bibitem{zaremba2014}
+Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals.
+\newblock Recurrent neural network regularization.
+\newblock {\em CoRR}, abs/1409.2329, 2014.
+
+\end{thebibliography}
